@@ -1,0 +1,18 @@
+
+ 1 tsc--init
+ find and change below
+ "target": "es6"
+ "module": "es015"
+
+ 2 npm init 
+ get package.json
+
+ 3. npm i webpack webpack-cli ts-loader -D
+   - D is dev dependency
+
+- webpack: compile bundle all codes together 
+- webpack-cli: tool allow webpack run in commint line
+- ts-loader: tool that complie form .ts to .js
+
+
+4. npm i typescript -D
