@@ -13,7 +13,9 @@ module.exports = {
     ]
   },
   output: {
+    // publicPath: 'public', //  <--- whenever change and save it will print
     filename: 'bundle.js', // <--- file name that after compile from .ts to .js
     path: path.resolve(__dirname, 'public') // <--- compiled files location
-  }
+  },
+  mode: 'development'
 }

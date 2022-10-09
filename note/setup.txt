@@ -29,3 +29,13 @@
 run npm run build will run .ts in 'src' folder
 
 npm run build
+
+7. npm i webpack-dev-server -D
+"scripts": {
+    "server": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+similar from react npm start, it created a webpage 
+npm run server
