@@ -16,3 +16,16 @@
 
 
 4. npm i typescript -D
+
+5. created webpack.config.js
+
+6 created scripts in package.json
+
+ "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+run npm run build will run .ts in 'src' folder
+
+npm run build
