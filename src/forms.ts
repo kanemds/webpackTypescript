@@ -8,3 +8,7 @@ export const formData = (form: HTMLFormElement) => {
   })
   return values
 }
+
+//////////// error 
+const person: any = {}
+console.log(person.speak())
