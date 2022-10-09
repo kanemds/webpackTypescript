@@ -12,6 +12,9 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    extensions: ['.ts', '.js'] // <-- this is able to read import export from .ts and .js
+  },
   output: {
     // publicPath: 'public', //  <--- whenever change and save it will print
     filename: 'bundle.js', // <--- file name that after compile from .ts to .js
